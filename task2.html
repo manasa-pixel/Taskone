@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-area: auto ;
+            height:100%;
+            gap: 2px;
+        }
+
+        .block1 {
+            border: 1px solid rgb(236, 64, 64);
+            grid-area: 1/1/2/5;
+
+
+        }
+        .block2 {
+            border: 1px solid rgb(236, 64, 64);
+            grid-area: 1/5/2/13;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1">block_1</div>
+        <div class="block2">block_2</div>
+    </div>
+</body>
+
+</html>
