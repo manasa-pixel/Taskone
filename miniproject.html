@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head ><script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project using Html/CSS</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: end;
+            gap: 3rem;
+            font-size: 30px;
+            /* padding: 10px; */
+        }
+        .container a{
+            text-decoration: none;
+        }
+        .main{
+            background-image: url(https://cdn.wallpapersafari.com/66/43/uOTDpQ.jpg);
+            height: 400px;
+            font-size: 20px;
+            
+        }
+        .main1{
+            margin-left: 500px;
+            padding: 10px;
+
+        }
+        .properties{
+               color: black;               
+        }
+        .selector{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .ram{
+            width: 300px ;
+            height: 200px;
+            background-image: url(https://images.pexels.com/photos/3405801/pexels-photo-3405801.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+
+        }
+        .corn{
+            width: 300px ;
+            height: 200px;
+            background-image: url(https://images.pexels.com/photos/3405801/pexels-photo-3405801.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+
+        }
+        .gap{
+            width: 300px ;
+            height: 200px;
+            background-image: url(https://images.pexels.com/photos/3405801/pexels-photo-3405801.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+
+        }
+        .top{
+            width: 300px ;
+            height: 200px;
+            background-image: url(https://images.pexels.com/photos/3405801/pexels-photo-3405801.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+
+        }
+        .selector1{
+            display: flex;
+            flex-wrap: wrap;
+            color: black;
+            text-align:center;
+            margin-top:100px;
+
+        }
+        .a{
+            width: 100%;
+            height: 1000px;
+            gap: 2rem;
+        }
+        .b{
+            margin-left: 30%;
+            display: flex;
+            justify-content: space-around;
+            width: 500px;
+            height: 250px;
+        }
+        .c{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image: url(https://images.unsplash.com/photo-1605714389837-828bc2b1e6c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+        }
+        .d{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) ;
+
+        }
+        .e{
+            border: 1px solid rgb(17,17,16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) ;
+    
+        }
+        .f{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image: url(https://images.unsplash.com/photo-1605714389837-828bc2b1e6c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    
+        }
+        .g{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1605714389837-828bc2b1e6c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+
+        }
+        .h{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) ;
+
+
+        }
+        .i{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) ;
+
+        }
+        .j{
+            border: 1px solid rgb(17, 17, 16);
+            width: 100%;
+            background-image:url(https://images.unsplash.com/photo-1605714389837-828bc2b1e6c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+
+
+        }
+        .moon{
+            width: 300px;
+            background-image: url(https://i.pinimg.com/564x/97/77/91/9777919538e81b84a79f065c94b75f9e.jpg);
+            height: 300px;
+            box-shadow: -30px 30px 10px 10px pink;
+            margin-left: 200px;
+            margin-bottom: 200px;
+
+
+        }
+        .son{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sun{
+            color: black;
+            width: 500px;
+            margin-top:200px ;
+            margin-left: 50px;
+        }
+        span{
+            color: red;
+        }
+        .rum{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .shayam{
+            width: 300px;
+            margin: 20px;
+            height: 150px;
+            border: 1px solid black;
+            background-image:url() ;
+            display: flex;
+            flex-wrap: wrap;
+ 
+        }
+        .somu{
+            width:200px ;
+            height:100px ;
+            margin: 20px;
+            border: 1px solid black;
+            background-image:url() ;
+        }
+        .raju{
+            width:200px ;
+            height: 100px;
+            margin: 20px;
+            border: 1px solid black;
+            background-image:url() ;
+
+        }
+   
+        .somuspapa{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .phone{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid;
+            color: black;
+            width: 300px;
+            margin: 20px;
+        }
+        .contact{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .footer{
+            height:300px;
+            background-color: brown;
+            margin-top: 100px;
+            color: black;
+        }
+        .footer{
+text-align: center;
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="main">
+    <nav class="container">
+        <a href="Home" style="color: antiquewhite ;">Home</a> 
+        <a href="services" style="color: antiquewhite ;">Services</a> 
+        <a href="Projects" style="color: antiquewhite;">Projects</a> 
+        <a href="About" style="color: antiquewhite ;">About</a>
+        <a href="Contact" style="color: antiquewhite ;">Contact</a>
+        </nav>
+        <span style="color: antiquewhite;">S<span>HAIF</span><span>   </span><span style="color: antiquewhite;">A</span><span>RFAN</span>
+        <h1 style="color: antiquewhite;">Hello,</h1><h1 style="color: antiquewhite;">My Name is</h1><h1 style="color: crimson;">Arfan</h1>
+    <div class="main1">
+        <button style="background-color: antiquewhite;">PORTFOLIO</button>
+    </div>
+    <div class="properties">
+        <h1 style="text-align: center; margin-top: 200px;">Services</h1>
+        <p style="text-align: center;">I declare this world is so beautiful that I can hardly believe it exists.” <br>
+             The beauty of nature can have a profound effect upon our senses, <br>
+             those gateways from the outer world to the inner, <br>
+             whether it results in disbelief in its very existence as Emerson notes, <br>
+             or feelings such as awe, wonder, or amazement.  
+        </p>
+    </div>
+    <div class="selector">
+        <div class="ram"><ion-icon name="storefront"></ion-icon></div>
+        <div class="corn"><ion-icon name="storefront"></ion-icon><p></p> </div>
+        <div class="gap"><ion-icon name="storefront"></ion-icon><p></p></div>
+        <div class="top"><ion-icon name="storefront"></ion-icon><p></p></div>
+    </div>
+    <div class="selector1">
+        <span style=" margin:2px; margin-left: 550px;">RECENT</span><span>    </span><span style="margin:2px ;color: red;"> PROJECTS</span>
+    </div>
+    <div class="a">
+        <div class="b">
+            <div class="c"><h2 style="color: black;">Project 1</h2><p style="color: black;">Nature is very important because if there was no nature we wouldn't be alive.</p></div>
+            <div class="d"></div>
+        </div>
+        <div class="b">
+            <div  class="e"></div>
+            <div  class="f"></div>
+        </div>
+        <div class="b">
+            <div class="g"></div>
+            <div class="h"></div>
+        </div>
+        <div class="b">
+           <div class="i"></div>
+           <div class="j"></div>
+        </div>
+    </div >
+    <div>
+
+    <div class="son">       
+        <div class="moon" style="margin-top:200px"></div>
+        <div class="sun">
+            <div style="display: flex; 
+            flex-wrap: wrap;" >
+                <h1>About <span>Me</span></h1>
+            </div>
+            <div>Nature is defined as our environment. It is the interaction between the physical world around us and the life within it like the atmosphere, climate, natural resources, ecosystem, flora, fauna and humans. Nature also includes non-living things such as water, mountains, landscape, plants, trees and many other things.</div>
+            <button style="color: red; width: 200px; height: 50px; background-color: rgb(255, 255, 255); margin-top: 30px; border-radius: 15px;">Download Resume</button>
+        </div>
+    </div>
+</div>
+
+   <h1 style="color: rgb(7, 7, 7); text-align: center;">CONTACT INFO</h1>
+
+    <div class="contact">
+        <div class="phone">
+            <div class="phone1" style="margin: 30px;"><img src="https://th.bing.com/th?q=Red+Phone+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="" width="100px"></div>
+            <div class="phone2" style="color: rgb(17, 17, 16);"><h3><ion-icon name="call"></ion-icon>Phone</h3>
+            <h5>+91--985274XXXX</h5>
+            <h5>+91--741274XXXX</h5></div>
+        </div>
+        <div class="phone">
+            <div class="phone1" style="margin: 20px;"><img src="https://th.bing.com/th/id/OIP.E4S1nO4BNIIaFB49xSm2UAHaHa?w=211&h=210&c=7&r=0&o=5&pid=1.7" alt="" width="100px"></div>
+            <div class="phone2" style="color: rgb(17, 17, 16);"><h3><ion-icon name="mail"></ion-icon>mail</h3>
+            <h5>MAN@GMAIL.COM</h5>
+            <h5>FLO@GMAIL.COM</h5></div>
+        </div><div class="phone" >
+            <div class="phone1" style="margin: 20px;"><img src="https://th.bing.com/th/id/OIP.XlW3dDPHpKMbv74ERqAIfgHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7" alt="" width="100px"></div>
+            <div class="phone2" style="color: rgb(17, 17, 16);"><h3><ion-icon name="navigate"></ion-icon>Address</h3>
+            <h5>HI TECH CITY</h5>
+            <h5>HYDERABAD</h5></div>
+        </div>
+
+     
+        
+    </div>
+
+
+    <div class="footer">
+        <div class="">
+            <h1>Manasa Flower Bookey</h1>
+           <h3> All varities of flower</h3>
+           <H1><ion-icon name="logo-instagram"></ion-icon><ion-icon name="logo-linkedin"></ion-icon><ion-icon name="logo-whatsapp"></ion-icon></H1>
+           <h5>COPYRIGHT @2023 ALL RIGHT RESERVED</h5>
+
+        </div>
+
+      </div>
+
+    
+</body>
+</html>
