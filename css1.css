@@ -1,0 +1,35 @@
+ .main {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+} 
+.Header{
+    background-color: red;
+    max-width: 200px;
+    
+}
+.manu{
+    background-color: deeppink;
+    
+       
+
+
+}
+.content{
+    background-color: crimson;
+    
+       
+}
+.footer{
+    background-color: coral;
+    
+       
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
