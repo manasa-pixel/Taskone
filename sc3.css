@@ -1,0 +1,84 @@
+.fontStylew{
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn {
+    background-color: rgb(74, 74, 219);
+    font-size: small;
+    height: 60px;
+    width: 150px;
+    
+}
+.btn-sign-up:hover{
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #7d0be9;
+    
+}
+.mt-5 {
+    margin-top: 5rem !important;
+}
+.font {
+    animation: 2s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  .text-secondary {
+    animation: 4s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  .btn-sign-up {
+    animation: 6s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+.main{
+    width: 100%;
+    overflow-x: hidden;
+}
